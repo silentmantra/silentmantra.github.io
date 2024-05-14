@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>silentmantra benchmark</title>
+    <script>
+        const script = document.createElement('script');
+        if ((location.hostname === 'localhost' || location.hostname === '127.0.0.1')) {
+            script.type = 'module';
+            script.src = 'http://localhost:8001/benchmark.js';
+        } else {
+            script.src = 'https://cdn.jsdelivr.net/gh/silentmantra/benchmark/loader.js';
+        }
+        document.head.appendChild(script);
+    </script>
+
+    <!-- <script src="https://unpkg.com/prettier@2.6.2/standalone.js"></script>
+    <script src="https://unpkg.com/prettier@2.6.2/parser-babel.js"></script> -->
+  <script type="module" crossorigin src="/assets/benchmark-bb7910c8.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/runtime-dom.esm-bundler-911af28d.js">
+  <link rel="stylesheet" href="/assets/runtime-dom-90b27945.css">
+  <link rel="stylesheet" href="/assets/benchmark-0efd8c6a.css">
+</head>
+
+<body>
+    <div id="app"></div>
+    
+</body>
+
+</html>
