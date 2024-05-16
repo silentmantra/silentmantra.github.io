@@ -236,4 +236,4 @@ If you need some code executed before the cycles, use \`// @run\`. For example y
 
   [1]: https://i.stack.imgur.com/jGO28.png
 <script src="https://cdn.jsdelivr.net/gh/silentmantra/benchmark/loader.js"><\/script>
-<!-- <script type="module" src="http://localhost:8001/benchmark.js"><\/script> -->`,je=u=>(Qe("data-v-53931d6d"),u=u(),Xe(),u),yr=je(()=>au("h1",null,[au("img",{src:Ye}),Ke(" silentmantra/benchmark")],-1)),Dr=je(()=>au("div",{class:"subtitle"},[au("a",{href:"/benchmark"},"Open the playground")],-1)),Er={__name:"App",setup(u){return(e,n)=>(ae(),se(Je,null,[yr,Dr,Ge(gr,{src:We(Cr)},null,8,["src"])],64))}},Ar=Ve(Er,[["__scopeId","data-v-53931d6d"]]);u0(Ar).mount("#app");
+<!-- <script type="module" src="http://localhost:8001/benchmark.js"><\/script> -->`,je=u=>(Qe("data-v-30633914"),u=u(),Xe(),u),yr=je(()=>au("h1",null,[au("img",{src:Ye}),Ke(" silentmantra/benchmark")],-1)),Dr=je(()=>au("div",{class:"subtitle"},[au("a",{href:"/benchmark",target:"_blank"},"Open the playground")],-1)),Er={__name:"App",setup(u){return(e,n)=>(ae(),se(Je,null,[yr,Dr,Ge(gr,{src:We(Cr)},null,8,["src"])],64))}},Ar=Ve(Er,[["__scopeId","data-v-30633914"]]);u0(Ar).mount("#app");
